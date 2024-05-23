@@ -9,6 +9,8 @@ on:
   push:
     branches:
       - main
+      #TODO remove before merge
+      - feat/deploy
   schedule:
     - cron: '0 9 * * *'
 
