@@ -4,7 +4,9 @@
 
 replicaCount: 1
 image:
-  repository: ghcr.io/velo-cite/voiesbordelaises
+  #TODO replace before merge
+  repository: ghcr.io/loicgombeaud/voiesbordelaises
+  #repository: ghcr.io/velo-cite/voiesbordelaises
   tag: latest
   pullPolicy: Always
 annotations:
